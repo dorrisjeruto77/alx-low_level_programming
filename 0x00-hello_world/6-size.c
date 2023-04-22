@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - start
+ *
  * description - print the size of data types
+ *
  * Return: Always 0 (success)
  */
 int main(void)
