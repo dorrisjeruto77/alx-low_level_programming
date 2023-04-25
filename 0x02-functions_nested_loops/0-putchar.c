@@ -1,18 +1,10 @@
-#include<stdio.h>
+#include<unistd.h>
 /**
  * main - program that prints _putchar, followed by a new line.
- *
+ *_putchar - writes the character c to stdout
  * Return: 0 (success)
  */
-int main(void)
+int _putchar(char c)
 {
-	char c[] = "putchar";
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
