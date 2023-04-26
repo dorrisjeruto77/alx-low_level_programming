@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "main.h"
 /**
  * print_alphabet_x10 - print alphabet x10 times
@@ -5,19 +6,13 @@
  */
 void print_alphabet_x10(void)
 {
-	char c;
-	int i = 0;
+	char i;
 
-	while (i <= 9 >
+	for (i = 'a'; i <= 'z'; i++)
 	{
 
-	for (c = 'a'; c <= '2' c++)
-	{
-	_putchar(c);
+	_putchar(i);
 
 	}
 	_putchar('\n')
-
-	i++;
-	}
 }
