@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,11 +6,12 @@
  * @a: input integer
  * Return: 1 if c is uppercase and 0 otherwise.
  */
+
 int mul(int a, int b)
 {
     int value;
 
-    value = a * b;
+   /* value = a * b;*/
 
-     return (value);
+     return (a * b);
 }
