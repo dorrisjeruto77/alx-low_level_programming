@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "ctype.h"
 /**
  * _isupper -  checks for uppercase characte
  *
@@ -8,11 +8,10 @@
  * Return:1 if true, 0 if false
  */
 
-int _isupper(int c)
+int _isupper(int n)
 {
-      if (c >= 'A' && c <= 'Z')
-      {
-            return (1);
-      }
-      return (0);
+      if (n >= 65 && n <= 90)
+              return (1);
+      else
+              return (0);
 }
