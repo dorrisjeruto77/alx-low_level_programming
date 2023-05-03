@@ -22,7 +22,7 @@ boolean = 1;
 }
 else if (boolean == 1)
 break;
-i++
+i++;
 }
 result *= minus;
 return (result);
