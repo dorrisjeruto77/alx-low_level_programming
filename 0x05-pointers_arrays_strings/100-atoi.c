@@ -48,6 +48,6 @@ int main(void)
   }
 }
 
-        putchar("%s", password);
+        printf("%s", password);
         return (0);
 }
