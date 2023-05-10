@@ -1,13 +1,12 @@
-fndef main_h_
+#ifndef main_h_
 #define main_h_
-
 #include <stdio.h>
 
 /*
- *  * File: main.h
- *   * Description: Header file containing declarations for all functions
- *    * 		used in the 0x06-pointers_arrays_strings directory.
- *     */
+ *File: main.h
+ * Description: Header file containing declarations for all functions
+ *used in the 0x06-pointers_arrays_strings directory.
+ */
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
