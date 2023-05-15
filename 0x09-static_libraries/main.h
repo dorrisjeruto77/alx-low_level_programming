@@ -1,14 +1,6 @@
 #ifndef main_h_
 #define main_h_
 
-#include <stdio.h>
-
-/*
- * File: main.h
- * Description: Header file containing declarations for all functions
- *used in the 0x09-static_libraries directory.
- */
-
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
