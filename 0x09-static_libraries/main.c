@@ -1,7 +1,9 @@
 #include "main.h"
-
+/**
+ * main -the function take no argument
+ */
 int main(void)
 {
-	_putchar("\"I want to be the best Software Engineer");
+	_puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
 	return (0);
 }
