@@ -8,7 +8,6 @@ int main(void)
 	x[2] = 1024;
 	p = &n;
 /*
-* main - check the code
 * write your line of code here...
 * Remember:
 * - you are not allowed to use a
