@@ -4,15 +4,15 @@
 #include "lists.h"
 
 /**
-* main - check the code
-*
-* Return: Always 0.
-*/
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	sigset_t *head;
-	sigset_t *new;
-	sigset_t hello = {"World", NULL};
+	list_t *head;
+	list_t *new;
+	list_t hello = {"World", 5, NULL};
 	size_t n;
 
 	head = &hello;
@@ -26,9 +26,15 @@ int main(void)
 	new->len = 5;
 	new->next = head;
 	head = new;
-	n = strlen(head);
+	n = print_list(head);
 	printf("-> %lu elements\n", n);
-	free(new ->str);
+
+	printf("\n");
+	free(new->str);
+	new->str = NULL;
+	n = print_list(head);
+	printf("-> %lu elements\n", n);
+
 	free(new);
 	return (0);
 }
