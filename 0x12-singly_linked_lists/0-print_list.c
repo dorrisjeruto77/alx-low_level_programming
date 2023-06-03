@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -10,20 +11,29 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t s = 0;
+	size_t count = 0;
 
-	while (h)
+	const list_t* current = h;
+	
+	while (current != NULL)
 	{
-	if (!h->str)
+		if (current->str != NULL)
+		{
+			printf("[%lu] %s\n", current->len, current->str);
+			count++;
+		}
+		current = current->next;
+return count;
+}
 
-	printf("[0](nil)\n");
+int main(void)
+{
+	list - t node1 = {"Hello", 5, NULL};
+	list - t node2 = {"World", 5, NULL};
+	node1.next = &node2;
 
-	else
+	size - t count = print - list(&node1);
+	printf("Count: %lu\n", count);
 
-	printf("[%u] %s\n", h->len, h->str);
-
-	s++;
-	}
-
-	return (s);
+return 0;
 }
