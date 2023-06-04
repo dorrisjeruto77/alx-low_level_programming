@@ -28,7 +28,7 @@ int main(void)
 	head = new;
 	n = strlen(head);
 	printf("-> %lu elements\n", n);
-	free(new ->str);
+	free(new->str);
 	free(new);
 	return (0);
 }
