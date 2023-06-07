@@ -2,10 +2,10 @@
 int main(void)
 {
 	int n;
-	int x[5];
+	int a[5];
 	int *p;
 
-	x[2] = 1024;
+	a[2] = 1024;
 	p = &n;
 /*
 * write your line of code here...
@@ -17,7 +17,7 @@ int main(void)
 */
 *(p + 5) = 98;
 /* ...so that this prints 98\n */
-	printf("x[2] = %d\n", x[2])
+	printf("a[2] = %d\n", a[2])
 	return (0);
 	}
 }
