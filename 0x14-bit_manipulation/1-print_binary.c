@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * @n: number to print in binary
- * print_binary - prints the binary representation  number
+ * @n: prints the integer
+ * print_binary - prints the binary representing decimal  number
  *
  */
 
-void print_binary(unsigned long int n);
+void print_binary(unsigned long int n)
 {
 	if (n > 1)
 		print_binary(n >> 1);
