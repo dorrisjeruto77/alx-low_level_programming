@@ -4,10 +4,10 @@
  * flip_bits - counts the number of bits to change
  * @n: first number
  * @m: second number
- * Retur: number of bits to change
+ * Return: number of bits to change
  */
 
-unsigned int flip_bits(unsigned long int n, unsigned long int m);
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	int count = 0;
 
