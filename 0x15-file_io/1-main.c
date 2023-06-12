@@ -4,7 +4,8 @@
 
 /**
  * main - check the code
- *
+ * @av: declared as a parameter
+ * @ac: check correct output
  * Return: Always 0.
  */
 int main(int ac, char **av)
