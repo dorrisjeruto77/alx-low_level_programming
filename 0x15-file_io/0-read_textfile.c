@@ -1,4 +1,4 @@
-#include <min.h>
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -13,6 +13,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t o, r, w;
 	char *buffer;
+
+	int bufferl;
+	buffer = 0;
 
 	if (filename == NULL)
 		return (0);
