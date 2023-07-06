@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * @b:Pointer to the  binary string
- *
  * binary_to_uint - Converts a binary string to an unsigned integer
  *
+ * @b:Pointer to the  binary string
  * Return: unsigned int.
  */
 
